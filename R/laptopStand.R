@@ -10,7 +10,7 @@ adjustBackFromHeight<-function(H,
                                eye=get("eye",envir = .GlobalEnv)){
   heightDifference=H-table$h
   heightAllowedTilt=eye$distance*tand(-(eye$angleOptimum))
-  backR=heightDifference-heightAllowedTilt-stand$front-laptop$h/2*cosd(laptop$screenTilt)
+  backR=heightDifference-heightAllowedTilt-laptop$h/2*cosd(laptop$screenTilt)
 }
 #-----------------------------------------------------------------------
 #adjustAngleFromHeight
