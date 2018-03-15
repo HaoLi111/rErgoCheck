@@ -1,0 +1,13 @@
+Package: rErgoCheck
+Type: Package
+Title: Ergonomic Factorized Conceptual Design Validification Tools (Title Case)
+Version: 0.2.0
+Author: Hao Li
+Maintainer: Hao Li <lhrcplanes@qq.com>
+Description: Ergonomic design is about considerig human factors in design referenced from anthropometric data and medical
+    suggestions to prevent health damage and promote work efficiency. This package is to provide a most structual and systematical
+    arrage and design of functions and data structure. 
+License: GPL V2.0
+Encoding: UTF-8
+LazyData: true
+Import: ggplot2, dplyr, car, lattice
