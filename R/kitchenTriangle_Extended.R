@@ -96,7 +96,6 @@ kitRan<-function(Xb = 170,target =  'C',
   abline(v =c(0,Xb), untf = FALSE)
   title(paste("The distribustion of ",target,
               " point with a known length of opposite side=",Xb))
-  rm(list=ls())
 }
 
 #kitRan(Xb,"b")
